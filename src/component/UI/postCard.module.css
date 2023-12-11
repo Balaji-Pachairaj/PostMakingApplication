@@ -1,0 +1,30 @@
+@keyframes sliceUp {
+    from{
+        transform: translateY(1rem);
+    }
+    to{
+        transform: translateY(-.1);
+    }
+}
+
+
+
+.postCard{
+    width: 65%;
+    height: max-content;
+
+    background-color: white;
+
+    margin-top: 2%; 
+    border-radius: 2%;   
+
+    animation: sliceUp .5s;
+}   
+
+
+@media (max-width : 750px) {
+    .postCard{
+        width: 85%;
+    }
+}
+

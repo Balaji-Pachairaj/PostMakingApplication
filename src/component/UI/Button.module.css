@@ -1,0 +1,37 @@
+.button{
+    font-size: large;
+    letter-spacing: 0.1rem;
+    
+
+    padding: 1% 2%;
+    border-radius: 10%;
+}
+
+.button:hover{
+    color: #FEFF86;
+}
+
+@keyframes click {
+    25%{
+        transform: scale(1.12);
+    }
+
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(0.9);
+    }
+
+}
+
+.button:active{
+    animation: click 0.2s;
+}
+
+
+
+.headerColor {
+    background-color: #D14D72;
+    color: #FEF2F4 ;
+}

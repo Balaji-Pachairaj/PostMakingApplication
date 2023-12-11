@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 10vh;
+    
+    background-color: #B9E9FC;
+    margin: 0;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: #262A56;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.header h1 , .header button{
+    margin: 0 4%;
+    
+}
