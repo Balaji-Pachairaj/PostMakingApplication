@@ -7,7 +7,7 @@ import ModalContext from "../context/context";
 
 
 const Modal = (props)=>{
-
+    //Modal Component
     let modalCtx = useContext(ModalContext)
     
     let display  = modalCtx.isModal
